@@ -1,0 +1,132 @@
+:root {
+    --CorPrincipal: #BC7A87;
+    --CorSegundaria: #bd979e;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navMenu {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background: var(--CorSegundaria);
+    padding: 0px;
+}
+
+.navMenu > li {
+    padding: 10px;
+}
+.navMenu .submenu{
+    position: absolute;
+}
+
+.navMenu a {
+    color: #fff;
+    font-size: 18px;
+}
+.submenu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    background: #E0CCB3;
+    display: none;
+}
+
+.imagemProduto img{
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.produto .content{
+    background: #fff;
+    filter: drop-shadow(2px 4px 5px #ccc);
+    border-radius: 7px;
+    padding: 10px;
+    transition:.5s;
+}
+.produto .content:hover{
+    filter: drop-shadow(2px 4px 10px #ccc);
+    transform:scale(1.1);
+}
+.NomeProduto h5{
+    text-align: center;
+    min-height: 50px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.ValorProduto{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5em;
+    margin-bottom:20px
+}
+
+
+.titulo{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.titulo span{
+    background: #ffc0cb;
+    z-index: 99999;
+    position: relative;
+    padding: 0px 35px;
+    border-radius: 10px;
+    border: 4px solid #d47f7f;
+    font-weight: 400;
+    font-size: 2em;
+}
+.titulo:after {
+    content: "";
+    background: #d47f7f;
+    width: 100%;
+    height: 3px;
+    position: relative;
+    display: block;
+    bottom: 25px;
+}
+
+.navFooter{
+    background: #BC7A87;
+    color: #fff;
+}
+.redeSocial{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.redeSocial li{
+    width:40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.redeSocial li a{
+    color:#fff;
+    font-size: 1.5em;
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #9f616c;
+    --bs-btn-border-color: #9f616c;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #c75b6e;
+    --bs-btn-hover-border-color: #c75b6e;   
+}
+
+a.marcacao:hover{
+    color: black;
+}
+
+h2.footerTitle{
+    text-align: center;
+}
